@@ -1,0 +1,97 @@
+body {
+    background-color: whitesmoke;
+}
+.text {
+    font-size: 30px;
+    height: 90px;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    left: 27%;
+    top: -15%;
+    letter-spacing: 5px;
+    position: absolute;
+}
+.grid {
+    top: 12%;
+    left: 38%;
+    position: absolute;
+    background-color: whitesmoke;
+    height: 310px;
+    width: 250px;
+    display: flex; 
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    justify-content: space-around;
+    /* margin: 10px; */
+    
+}
+.letterBox {
+    /* padding: 10px; */
+    /* align-items: center; */
+    text-align:center;
+    justify-items: center;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(223, 202, 202, 0.5);
+    background-color: antiquewhite;
+}
+.boxDiv {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* align-items:flex-start; */
+    justify-content: space-around;
+}
+
+/* #boxDiv1 {
+    
+    top: 0%;
+} */
+
+.letterButton {
+ border-radius: 5px;
+ width: 40px;
+ height: 40px;
+ border: 5px thick white;
+}
+
+.engKeyboard {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    bottom: -48%;
+    left: -30%;
+    position: absolute;
+}
+
+/* .engKey1Div { */
+    /* left: 10px; */
+    /* bottom: 200%; */
+    /* position: absolute; */
+/* } */
+
+.engKey2Div {
+    padding-top: 10px;
+    left: 20px;
+    position: relative;
+}
+.engKey3Div {
+    padding-top: 10px;
+    left: 15px;
+    position: relative;
+}
+
+#enter {
+    /* left: 0px; */
+    width: 50px;
+    /* position: relative; */
+}
+/* #boxDiv1 { */
+    /* top: 20%; */
+/* } */
+
+/* #boxDiv2 { */
+    /* top: 40%; */
+/* } */

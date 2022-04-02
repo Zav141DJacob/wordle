@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./static/styles/styles.css">
+        <!-- <script type="text/javascript"></script> -->
+        <!-- <link rel="icon" type="image/x-icon" href="./ui/assets/art/favicon.png"> -->
+    </head>
+    <body>
+        <!-- <div class="title text">Wordle</div> -->
+        <script type="module">
+            import { keyboard } from "./static/scripts/keyboard.js"
+            import { grid } from "./static/scripts/grid.js"
+            import { getWords, getWord } from "./static/scripts/words.js"
+            import { setWord } from "./static/scripts/funcs.js"
+            document.body.addEventListener("buttonup", () => {console.log("click")})
+            //https://github.com/Kinkelin/WordleCompetition/tree/main/data/official
+            getWords("./static/data/allowedWords.txt").then((e) => {
+                let word = getWord(e)
+                setWord(word)
+                grid()
+                keyboard()
+                // console.log({{.}})
+            })
+        </script>
+    </body>
+</html>
